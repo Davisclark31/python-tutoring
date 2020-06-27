@@ -89,6 +89,7 @@ def buy_item(driver, config):
 
 
 def log_into_google(driver):
+    driver.get("https://www.accounts.google.com")
     return
 
 
