@@ -130,3 +130,5 @@ while start == False:
         buy_item(driver, CONFIG)
         start = True
     time.sleep(0.5)
+
+driver.find_element_by_class
